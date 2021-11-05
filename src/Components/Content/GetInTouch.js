@@ -8,6 +8,7 @@ const GetInTouch = () => {
         <div>
 
 <Nav/>
+<h1>bla</h1>
 
         <h1> GetInTouch</h1>
         </div>
