@@ -1,0 +1,55 @@
+$mainGradient: linear-gradient(0deg, rgba(176, 210, 231, 1) 0%, rgba(255, 255, 255, 1) 83%);
+$design: #abcfe6;
+$designText: #184059;
+$careforyou: #ffb472;
+$careforyouText: #bf7b3f;
+$uptodate: #bfddef;
+$uptodateText: #5d8aa6;
+
+.Home {
+  display: grid;
+  grid-template-rows: 1fr 4fr;
+
+  height: 100vh;
+  background: $mainGradient;
+  justify-content: center;
+}
+
+.navContainer {
+  display: flex;
+  align-items: flex-end;
+  .nou-container{
+    margin-left: auto;
+   
+   
+  }
+ 
+}
+
+.imgContainer {
+  display: flex;
+  gap: 50px;
+
+  grid-row: 2/3;
+
+  img {
+    object-fit: cover;
+  }
+}
+
+.nou {
+  
+  height: 70px;
+
+  img {
+    height: 70px;
+    object-fit: cover;
+  }
+}
+
+.moreToCome{
+  justify-self: end;
+ 
+  color: white;
+  background-color: black;
+}
