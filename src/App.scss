@@ -6,7 +6,7 @@ $careforyouText: #bf7b3f;
 $uptodate: #bfddef;
 $uptodateText: #5d8aa6;
 
-.Home {
+header {
   display: grid;
   grid-template-rows: 1fr 4fr;
 
@@ -49,7 +49,9 @@ $uptodateText: #5d8aa6;
 
 .moreToCome{
   justify-self: end;
- 
+  text-align: center;
   color: white;
   background-color: black;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
 }

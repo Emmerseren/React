@@ -9,7 +9,7 @@ import GetInTouch from "./GetInTouch";
 const Routing = () => {
 
     return (
-     <div>
+     
     
     <Router>
 <Routes>
@@ -19,7 +19,7 @@ const Routing = () => {
   <Route path="/WhatWeDo" element={<WhatWeDo />} />
 </Routes>
 </Router>
-     </div>
+    
      
     )
    };

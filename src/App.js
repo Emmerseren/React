@@ -8,10 +8,10 @@ import './App.scss';
 const App = () => {
 
  return (
-  <div>
+  
  <Routing/>
 
-  </div>
+  
   
  )
 };

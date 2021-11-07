@@ -1,18 +1,24 @@
 import React from "react";
 import Nav from "./Nav";
 
+import Main from "./Main";
+
 const WhatWeDo = () => {
 
     return (
 
-        <div>
+        
+
+<header>
 
 
-<h1>What we do</h1>
+
 <Nav/>
+
     
+</header>
             
-        </div>
+      
 
     );
 
