@@ -13,11 +13,14 @@ return(
       
     {Data.navigation.map((navData, index) => {
         return (
+           
+
             <NavLink to={Data.navigation[index].link} key={navData.id} className = {"renderOn "+Data.navigation[index].class}>
           
             <img src={Data.navigation[index].navBox} alt="" />
             <img src={Data.navigation[index].navUnderline} className="renderOff"/>
             </NavLink>
+           
       );
     })}
 

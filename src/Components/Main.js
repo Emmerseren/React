@@ -2,9 +2,9 @@
 import React, { Fragment } from "react";
 
 
-/* Import Data */
-import Data from "./Data.json";
+
 /* Import Components */
+import Data from "./Data.json";
 import Nav from "./Nav";
 
 
@@ -16,7 +16,7 @@ const Main = () => {
 
     <header className="Home">
       
-     <Nav/>
+     <Nav />
     
   
 
