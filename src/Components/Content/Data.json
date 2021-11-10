@@ -1,0 +1,88 @@
+{
+  "image": [
+    {
+      "id": 1,
+      "pic": "../assets/front-desktop/front-what-we-do.png",
+      "class": "Main_WhatWeDo"
+    },
+    {
+      "id": 2,
+      "pic": "../assets/front-desktop/front-maintainable.png",
+      "class": "Main_MaintainAble"
+    },
+    {
+      "id": 3,
+      "pic": "../assets/front-desktop/front-get-in-touch.png",
+      "class": "Main_GetInTouch",
+      "ptag": "And yet.. more to come"
+    }
+  ],
+  "navigation": [
+    {
+      "link": "/WhatWeDo",
+      "id": 1,
+      "navBox": "../assets/navigation/nav-1.png",
+      "navUnderline": "../assets/navigation/nav-1-where.png",
+      "class": "What"
+    },
+    {
+      "link": "/Maintainable",
+      "id": 2,
+      "navBox": "../assets/navigation/nav-2.png",
+      "navUnderline": "../assets/navigation/nav-2-where.png",
+      "class": "Maintain"
+    },
+    {
+      "link": "/GetinTouch",
+      "id": 3,
+      "navBox": "../assets/navigation/nav-3.png",
+      "navUnderline": "../assets/navigation/nav-3-where.png",
+      "class": "Getin"
+    }
+  ],
+
+  "whatwedo": [
+    {
+      "id": 1,
+      "class": "whatwedo",
+      "img": "../assets/front-desktop/front-what-we-do-link.png",
+      "h1Class": "WhatwedoH1",
+      "h1": "Design is the ",
+      "h1SecClass": "WhatwedoH1Sec",
+      "h1SecPart": "matter of choise ... ",
+      "pOne": "But i must explain to you how all this mistaken idea of denauncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but becuase those who do not know how to pursue pleasure rationally encounter consequences that are.",
+      "pTwo": "But i must explain to you how all this mistaken idea of denauncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but becuase those who do not know how to pursue pleasure rationally encounter consequences that are.",
+      "pThree": "becuase those who do not know how to pursue pleasure rationally encounter consequences that are."
+    }
+  ],
+
+  "Maintainable": [
+    {
+      "id": 2,
+      "class": "maintainable",
+      "img": "../assets/front-desktop/front-maintainable-link.png",
+      "h1Class": "MaintainH1",
+      "h1": "Keeping your all ",
+      "h1SecClass": "MaintainH1Sec",
+      "h1SecPart": " upto Date ... ",
+      "pOne": "But i must explain to you how all this mistaken idea of denauncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but becuase those who do not know how to pursue pleasure rationally encounter consequences that are.",
+      "pTwo": "But i must explain to you how all this mistaken idea of denauncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but becuase those who do not know how to pursue pleasure rationally encounter consequences that are.",
+      "pThree": "becuase those who do not know how to pursue pleasure rationally encounter consequences that are."
+    }
+  ],
+
+  "getintouch": [
+    {
+      "id": 3,
+      "class": "getintouch",
+      "img": "../assets/front-desktop/front-getintouch-link.png",
+      "h1Class": "GitH1",
+      "h1": "There for you and ",
+      "h1SecClass": "GitH1Sec",
+      "h1SecPart": "care for you ... ",
+      "pOne": "But i must explain to you how all this mistaken idea of denauncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but becuase those who do not know how to pursue pleasure rationally encounter consequences that are.",
+      "pTwo": "But i must explain to you how all this mistaken idea of denauncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but becuase those who do not know how to pursue pleasure rationally encounter consequences that are.",
+      "pThree": "becuase those who do not know how to pursue pleasure rationally encounter consequences that are."
+    }
+  ]
+}
