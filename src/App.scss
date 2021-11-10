@@ -1,17 +1,19 @@
-$mainGradient: linear-gradient(0deg, rgba(176, 210, 231, 1) 0%, rgba(255, 255, 255, 1) 83%);
+$MainBackground: linear-gradient(0deg, rgba(176, 210, 231, 1) 0%, rgba(255, 255, 255, 1) 83%);
 $design: #abcfe6;
 $designText: #184059;
 $careforyou: #ffb472;
 $careforyouText: #bf7b3f;
-$uptodate: #bfddef;
+$WhatWeDoBackground: #bfddef;
 $uptodateText: #5d8aa6;
+
+/* Main page */
 
 header {
   display: grid;
   grid-template-rows: 1fr 4fr;
 
   height: 100vh;
-  background: $mainGradient;
+  background: $MainBackground;
   justify-content: center;
 }
 
@@ -54,4 +56,31 @@ header {
   background-color: black;
   font-size: 1em;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navigation Underline Activation */
+
+.renderOn{
+  .renderOff{
+   opacity: 0;
+  }
+}
+
+.renderOn.active{
+
+  .renderOff{
+    opacity: 1;
+  }
+}
+
+a img{
+  display: block;
+}
+
+
+/* WhatWeDoPage */
+
+.whatwedo{
+  background: $WhatWeDoBackground;
+  height: 100vh;
 }

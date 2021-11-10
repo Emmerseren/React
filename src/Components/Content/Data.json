@@ -1,46 +1,43 @@
 {
-    "image": [
-        {
-            "id": 1,
-            "pic": "../assets/front-desktop/front-what-we-do.png",
-            "class": "Main_WhatWeDo"
-        },
-        {
-            "id": 2,
-            "pic": "../assets/front-desktop/front-maintainable.png",
-            "class": "Main_MaintainAble"
-        },
-        {
-            "id": 3,
-            "pic": "../assets/front-desktop/front-get-in-touch.png",
-            "class": "Main_GetInTouch",
-            "ptag": "And yet.. more to come"
-            
-        }
-      
-
-    ],
-    "navigation": [
-        {
-            "link": "/WhatWeDo",
-            "id": 1,
-            "navBox": "../assets/navigation/nav-1.png",
-            "navUnderline": "../assets/navigation/nav-1-where.png",
-            "class": "What"
-        },
-        {
-            "link": "/Maintainable",
-            "id": 2,
-            "navBox": "../assets/navigation/nav-2.png",
-            "navUnderline": "../assets/navigation/nav-2-where.png",
-            "class": "Maintain"
-        },
-        {
-            "link": "/GetinTouch",
-            "id": 3,
-            "navBox": "../assets/navigation/nav-3.png",
-            "navUnderline": "../assets/navigation/nav-3-where.png",
-            "class": "Getin"
-        }
-    ]
+  "image": [
+    {
+      "id": 1,
+      "pic": "../assets/front-desktop/front-what-we-do.png",
+      "class": "Main_WhatWeDo"
+    },
+    {
+      "id": 2,
+      "pic": "../assets/front-desktop/front-maintainable.png",
+      "class": "Main_MaintainAble"
+    },
+    {
+      "id": 3,
+      "pic": "../assets/front-desktop/front-get-in-touch.png",
+      "class": "Main_GetInTouch",
+      "ptag": "And yet.. more to come"
+    }
+  ],
+  "navigation": [
+    {
+      "link": "/WhatWeDo",
+      "id": 1,
+      "navBox": "../assets/navigation/nav-1.png",
+      "navUnderline": "../assets/navigation/nav-1-where.png",
+      "class": "What"
+    },
+    {
+      "link": "/Maintainable",
+      "id": 2,
+      "navBox": "../assets/navigation/nav-2.png",
+      "navUnderline": "../assets/navigation/nav-2-where.png",
+      "class": "Maintain"
+    },
+    {
+      "link": "/GetinTouch",
+      "id": 3,
+      "navBox": "../assets/navigation/nav-3.png",
+      "navUnderline": "../assets/navigation/nav-3-where.png",
+      "class": "Getin"
+    }
+  ]
 }

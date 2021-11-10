@@ -1,27 +1,24 @@
-import React from "react";
+import React, { useState,} from "react";
 import Nav from "./Nav";
 
-import Main from "./Main";
-
-const WhatWeDo = () => {
-
-    return (
-
-        
-
-<header>
 
 
+const WhatWeDo = ({subData }) => {
 
-<Nav/>
+ 
 
+ 
+  return (
+    <div className="whatwedo">
+        <Nav/>
+
+      {subData.map((mapdata) => (
+         <div key={subData.id}> <img src={subData} alt="" /> </div>
+
+      ))}
     
-</header>
-            
-      
-
-    );
-
-}
+    </div>
+  );
+};
 
 export default WhatWeDo;
